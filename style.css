@@ -1,0 +1,109 @@
+*{
+    padding:0px;
+    margin:0px;
+    color: white;
+}
+body{
+    background-color: #0F1040;
+}
+
+#heading{
+    padding-top: 6px;
+    text-align: center;
+    font-size:50px;
+    font-family:'Agency FB','Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    color: gold;
+}
+video{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+}
+.dp{
+    height:150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-60%);
+    z-index: 1;
+}
+#name{
+    position: absolute;
+    top:25%;
+    left:50%;
+    transform: translateX(50%);
+    color: rgb(8, 241, 194);
+    text-decoration: underline;
+}
+#desc{
+    position: absolute;
+    top:32%;
+    left: 10%;;
+    transform: translateX(150%);
+    font-family:'Antique Olive','Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif
+}
+/* mid sec */
+.container{
+    display: flex;
+    gap:200px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 220px;
+}
+.skill summary{
+    font-family: 'DVB-TTChhayaEN',Arial, Helvetica, sans-serif;
+}
+.edu summary{
+    font-family: 'DVB-TTChhayaEN',Arial, Helvetica, sans-serif;
+}
+.proj summary{
+    font-family: 'DVB-TTChhayaEN',Arial, Helvetica, sans-serif;
+}
+
+/* footer hai */
+#footercon{
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+}
+#contact{
+    display: inline;
+    position: fixed;
+    bottom: 20px;
+    padding-left: 20px;
+}
+#mail{
+    display: inline;
+    position: fixed;
+    bottom: 20px;
+    transform: translateX(150%);
+    padding-left: 20px;
+}
+#tag{
+    display: inline;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: rgb(238, 133, 4);
+
+}
+#bgimg{
+    height: 155px;
+    width: 155px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-60.5%);
+    z-index: 0;
+    animation: changecolor 2s linear 1s infinite
+}
+@keyframes changecolor{
+    from{background-color: #09a4e6;}
+    to{background-color: blue;}
+}
