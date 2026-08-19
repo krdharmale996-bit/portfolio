@@ -41,7 +41,7 @@ video{
 #desc{
     position: absolute;
     top:32%;
-    left: 10%;;
+    left: 15%;;
     transform: translateX(150%);
     font-family:'Antique Olive','Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif
 }
@@ -51,7 +51,7 @@ video{
     gap:200px;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 260px;
+    margin-top: 360px;
 }
 .skill summary{
     font-family: 'DVB-TTChhayaEN',Arial, Helvetica, sans-serif;
